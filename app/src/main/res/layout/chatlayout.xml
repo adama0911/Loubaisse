@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/senegal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/showLayout"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="449dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ereqfqd" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/iconsmiley" />
+
+            <EditText
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="ererer"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/iconmicro" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
